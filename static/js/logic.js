@@ -63,7 +63,8 @@ function createMarkers(){
       style: function(feature) {
         return {
           stroke: true,
-          weight: 3
+          weight: 3,
+          fillOpacity: 0
         };
       }
     }).addTo(myMap);    
@@ -136,11 +137,11 @@ function CreateLegend(map) {
 
     // loop through magnitudes and generate a label with a colored square for each interval
     for (var i = 0; i < magnitudes.length; i++) {
-      labels.push('<i style="background:' + getColor(magnitudes[i] + 1) + '"></i>' +
-      magnitudes[i] + (magnitudes[i + 1] ? '&ndash;' + magnitudes[i + 1]: '+'));
-    }
+      labels.push('<li style=\"list-style-type:none;\"><i style="background:' + getColor(magnitudes[i] + 1) + '"></i><div>' +
+      magnitudes[i] + (magnitudes[i + 1] ? '&ndash;' + magnitudes[i + 1]: '+') + "</div></li>");
+    }  
 
-    div.innerHTML = labels.join('<br>');
+    div.innerHTML = labels.join('');
     return div;
   };
   
