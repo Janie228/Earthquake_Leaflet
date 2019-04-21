@@ -27,7 +27,7 @@ h1 {
 
 .legend {
   background-color: “black”;
-  line-height: 25px;
+  line-height: 19px; /* Control spacing of legend's color */
   color: #555;
   width: 70px;
   }
