@@ -53,11 +53,19 @@ Bootstrap 4 breakpoints
 */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {  
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+  .text-navy {font-family: Arial, Helvetica, sans-serif;}
   .text-responsive {font-size: 10vw;}
   .sticky-offset {padding: 5rem 0rem 0rem 0rem;} 
 }
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767px) {  
+@media (min-width: 576px) and (max-width: 767px) {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .text-navy {font-family: Arial, Helvetica, sans-serif;}  
   .text-responsive {font-size: 8vw;}
   .sticky-offset {padding: 6rem 0rem 0rem 0rem;} 
 }
