@@ -1,4 +1,4 @@
-# [Visualizing Data with Leaflet](https://janie228.github.io/Earthquake_Leaflet/target=_blank)  
+# [Visualizing Data with Leaflet](https://janie228.github.io/Earthquake_Leaflet/target="_blank")  
 -----
 
 ## Background
