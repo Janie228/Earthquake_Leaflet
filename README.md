@@ -1,4 +1,4 @@
-# Visualizing Data with Leaflet
+# [Visualizing Data with Leaflet](https://janie228.github.io/Earthquake_Map/)  
 -----
 
 ## Background
@@ -68,8 +68,6 @@ Your final product will be assessed on the following metrics:
 **Good luck!**
 
 
-## Results
-* website: 
 
 -----
 ### Copyright
