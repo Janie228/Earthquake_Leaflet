@@ -56,7 +56,8 @@ Your final product will be assessed on the following metrics:
 
 ## Results
 * [Click here to website](https://janie228.github.io/Journalism_D3/).
-![earthquake.JPG](static/img/earthquake.JPG)
+![earthquake_web.JPG](static/img/earthquake_web.JPG)
+![earthquake_map.JPG](static/img/earthquake_map.JPG)
 
 
 -----
