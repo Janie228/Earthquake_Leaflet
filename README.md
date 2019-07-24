@@ -1,4 +1,4 @@
-# [Earthquake GeoMapping](https://janie228.github.io/Earthquake_Leaflet/)
+# [Earthquake Geo-Mapping](https://janie228.github.io/Earthquake_Leaflet/)
 -----
 
 ## Background
