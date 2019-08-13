@@ -53,14 +53,6 @@ In this step we are going to..
 
 - - -
 
-## Assessment
-Your final product will be assessed on the following metrics:
-* Completion of requirements
-* Visual appearance
-* Professionalism
-
-- - -
-
 ## Results
 * [Click here to website](https://janie228.github.io/Journalism_D3/).
 ![earthquake_web.JPG](static/img/earthquake_web.JPG)
