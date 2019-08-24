@@ -10,9 +10,8 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 - - -
 ## Project Results
-* [Click here to website](https://janie228.github.io/Journalism_D3/).
-![earthquake_web.JPG](static/img/earthquake_web.JPG)
-![earthquake_map.JPG](static/img/earthquake_map.JPG)
+* [![earthquake_web.JPG](static/img/earthquake_web.JPG)](https://janie228.github.io/Earthquake_Leaflet/ "Click here for website")
+* [![earthquake_map.JPG](static/img/earthquake_map.JPG)](https://janie228.github.io/Earthquake_Leaflet#mapID/ "Click here for website")
 
 - - -
 ## Technologies Used
