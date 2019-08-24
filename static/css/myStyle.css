@@ -13,73 +13,121 @@ html {
   -moz-box-sizing: inherit;
   box-sizing: inherit; 
  }
-   
- .bg-img {
+
+body {
+  position: relative; 
+  background-color: #e8eaf6 ;
+  margin: 1px;
+  /* font-family: Helvetica, Arial, sans-serif; */
+  font-family: 'Germania One', cursive;
+} 
+
+/*------------------------------------------------------------- */
+/*Content */
+/* .sticky-offset { 
+  padding: 4vw 0vw 0vw 0vw; 
+}  */
+.sticky-offset {padding: 6rem 0rem 0rem 0rem;} 
+.text-navy {
+  color: navy;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+.bg-black {
+  background-color: black;
+}
+
+/*------------------------------------------------------------- */
+/*Header */
+.bg-img {
   background: url(../img/usgs_icon.png) right no-repeat;
   background-size: cover;
 }
-
-body {
-  background-color: #e8eaf6 ;
-  margin: 1px;
-  font-family: Helvetica, Arial, sans-serif;
-}  
-
+.border_darkblue {
+  border-style: solid;
+  border-color: rgba(0, 0, 128, 1)  rgba(0, 0, 128, 1) rgba(131, 130, 134, 0.5) rgba(0, 0, 128, 1);
+}
 /* Calculate text size based on port center*/
 .text-responsive {
-  font-size: 5vw;
+  font-size: 6vw;
 }
-
-.sticky-offset { 
-  padding: 5rem 0rem 0rem 0rem; 
-} 
-
-.text-navy {
-  color: navy;
-  font-family: Arial, Helvetica, sans-serif;
+.navbar-nav a { /* Menu Text */
+  font-weight: bold;
+  font-size: 1em ;
 }
-
+.menu-pt {  /*Menu padding top*/
+  margin-top: .8vw;    
+}           
+/*------------------------------------------------------------- */
  /*Footer: Gradient Colors */
 .bg-grad_gray {
  /*  background-color:  rgba(0,0,255); For browsers that do not support gradients */
   background-image: linear-gradient(rgba(131, 130, 134, 0.1), rgba(0, 0, 128, 1)); /* Standard syntax (must be last) */
+  height: 30px;
 }
+
+/**************************************************************
+/* GeoMap Style */
+#map {
+  min-width: 1200px;
+  min-height: 1000px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.info {
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  }
+
+.legend {
+  background-color: “black”;
+  line-height: 19px; /* Control spacing of legend's color */
+  color: #555;
+  width: 100px;
+  }
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+  }
 
 /*
 ####################################################
 M E D I A  Q U E R I E S
 ####################################################
 Bootstrap 4 breakpoints
-*/
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px) {  
-  .sticky-offset {padding: 5rem 0rem 0rem 0rem;} 
+@media (max-width: 575px) { 
+  .sticky-offset {padding: 6rem 0rem 0rem 0rem;}
+  .text-responsive {font-size: 6vw;} 
+  .menu-pt {margin-top: .1vw;  /* Menu padding top*/ }
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
-  .sticky-offset {padding: 6rem 0rem 0rem 0rem;} 
+  .sticky-offset {padding: 6rem 0rem 0rem 0rem;}
+  .text-responsive {font-size: 6vw;}
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) { 
-  body {
-    font-family: 'Germania One', cursive, Helvetica, Arial, sans-serif;
-  }
-  .text-navy {font-family: 'Germania One', cursive, Helvetica, Arial, sans-serif;}
   .sticky-offset {padding: 7rem 0rem 0rem 0rem;} 
+  .text-responsive {font-size: 6vw;}
 }
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) { 
-  body {
-    font-family: 'Germania One', cursive, Helvetica, Arial, sans-serif;
-  }
-  .text-navy {font-family: 'Germania One', cursive, Helvetica, Arial, sans-serif;}
-  .sticky-offset {padding: 7rem 0rem 0rem 0rem;} 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .sticky-offset {padding: 7rem 0rem 0rem 0rem;}  
+  .text-responsive {font-size: 5vw;}
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
-  body {
-    font-family: 'Germania One', cursive, Helvetica, Arial, sans-serif;
-  }
-  .text-navy {font-family: 'Germania One', cursive, Helvetica, Arial, sans-serif;}
-  .sticky-offset {padding: 8rem 0rem 0rem 0rem;} 
+  .sticky-offset {padding: 7.5rem 0rem 0rem 0rem;}
+  .text-responsive {font-size: 4vw;}
 }
