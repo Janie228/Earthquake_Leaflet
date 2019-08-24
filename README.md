@@ -1,6 +1,5 @@
 # [Earthquake Geo-Mapping](https://janie228.github.io/Earthquake_Leaflet/)
 -----
-
 ## Background
 
 ![1-Logo](static/img/1-Logo.png)
@@ -10,23 +9,22 @@ Welcome to the United States Geological Survey, or USGS for short! The USGS is r
 The USGS is interested in building a new set of tools that will allow them visualize their earthquake data. They collect a massive amount of data from all over the world each day, but they lack a meaningful way of displaying it. Their hope is that being able to visualize their data will allow them to better educate the public and other government organizations (and hopefully secure more funding..) on issues facing our planet.
 
 - - -
-
-## Results
+## Project Results
 * [Click here to website](https://janie228.github.io/Journalism_D3/).
 ![earthquake_web.JPG](static/img/earthquake_web.JPG)
 ![earthquake_map.JPG](static/img/earthquake_map.JPG)
 
 - - -
-
 ## Technologies Used
-Bootstrap 4+, Leaflet.js, HTML/CSS, Visual Studio Code
+Visual Studio Code, HTML/CSS, Bootstrap 4, D3.JS, Leaflet.js, Web API, JSON dataset
 
+- - -
 ## Installation/Setup
 * Clone this repo to your computer
 * Run the application in Visual Studio Code
 
+- - -
 ## Requirements
-
 ### Level 1: Basic Visualization
 
 ![2-BasicMap](static/img/2-BasicMap.png)
@@ -59,7 +57,6 @@ In this step we are going to..
 * Plot a second data set on our map.
 * Add a number of base maps to choose from as well as separate out our two different data sets into overlays that can be turned on and off independently.
 * Add layer controls to our map.
-
 
 -----
 ### Copyright
