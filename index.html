@@ -21,8 +21,9 @@
         crossorigin="" />
 </head>
 
-<!-- NOTES: At least data-offset="1" in order for the scrollspy to default to home button-->
-<body data-spy="scroll" data-target=".navbar" data-offset="1">
+<!-- NOTES: data-offset="50" in order for the scrollspy to default to home button-->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <header id="headID" class="fixed-top border_darkblue">
         <div class="bg-img d-flex justify-content-between shadow">
             <nav class="navbar navbar-expand-lg fixed-top menu-pt">
@@ -59,81 +60,77 @@
 
     <content class="container-fluid">
         <div id="aboutID" class="row sticky-offset">
-            <!-- <div class="row sticky-offset"> -->
-                <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-                    <div class="card shadow p-2 mb-2 bg-black">
-                        <img src="https://media.giphy.com/media/AJJqjf5KPaofu/giphy.gif"
-                            class="rounded mx-auto d-block h-75 w-75" alt="animated earth">
+            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                <div class="card shadow p-2 mb-2 bg-black">
+                    <img src="https://media.giphy.com/media/AJJqjf5KPaofu/giphy.gif"
+                        class="rounded mx-auto d-block h-75 w-75" alt="animated earth">
+                </div>
+                <div class="card shadow p-2 mb-2">
+                    <img src="https://media.giphy.com/media/nQT67WYvrLZ72/giphy.gif" class="rounded h-100 w-100"
+                        alt="animated animated earth2">
+                </div>
+            </div>
+
+            <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+                <div class="card p-7 shadow mb-2">
+                    <div class="card-header text-navy">
+                        <h4 class="text-center"><strong>Disasters Map</strong></h4>
                     </div>
-                    <div class="card shadow p-2 mb-2">
-                        <img src="https://media.giphy.com/media/nQT67WYvrLZ72/giphy.gif" class="rounded h-100 w-100"
-                            alt="animated animated earth2">
+                    <div class="card-body">
+                        <p>
+                            United States Geological Survey, USGS, is responsible for providing scientific data
+                            about
+                            natural
+                            hazards,
+                            the health of our ecosystems and environment; and the impacts of climate and land-use
+                            change. Their
+                            scientists
+                            develop new methods and tools to supply timely, relevant, and useful information about
+                            the
+                            Earth and
+                            its processes.
+                        </p>
+                        <p>
+                            The USGS is interested in building a new set of tools that will allow them visualize
+                            their
+                            earthquake
+                            data.
+                            They collect a massive amount of data from all over the world each day, but they lack a
+                            meaningful way
+                            of displaying
+                            it. Their hope is that being able to visualize their data will allow them to better
+                            educate
+                            the public
+                            and other
+                            government organizations (and hopefully secure more funding..) on issues facing our
+                            planet.
+                        </p>
+                        <p>
+                            The USGS provides earthquake data in a number of different formats, updated every 5
+                            minutes,
+                            at
+                            <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php" target="_black"
+                                title="USGS Earthquake data link.">
+                                USGS GeoJSON Feed
+                            </a>. The map on the link above contains dataset of all earthquakes from the past 7
+                            days.
+                        </p>
                     </div>
                 </div>
 
-                <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
-                    <div class="card p-7 shadow mb-2">
-                        <div class="card-header text-navy">
-                            <h4 class="text-center"><strong>Disasters Map</strong></h4>
-                        </div>
-                        <div class="card-body">
-                            <p>
-                                United States Geological Survey, USGS, is responsible for providing scientific data
-                                about
-                                natural
-                                hazards,
-                                the health of our ecosystems and environment; and the impacts of climate and land-use
-                                change. Their
-                                scientists
-                                develop new methods and tools to supply timely, relevant, and useful information about
-                                the
-                                Earth and
-                                its processes.
-                            </p>
-                            <p>
-                                The USGS is interested in building a new set of tools that will allow them visualize
-                                their
-                                earthquake
-                                data.
-                                They collect a massive amount of data from all over the world each day, but they lack a
-                                meaningful way
-                                of displaying
-                                it. Their hope is that being able to visualize their data will allow them to better
-                                educate
-                                the public
-                                and other
-                                government organizations (and hopefully secure more funding..) on issues facing our
-                                planet.
-                            </p>
-                            <p>
-                                The USGS provides earthquake data in a number of different formats, updated every 5
-                                minutes,
-                                at
-                                <a href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php" target="_black"
-                                    title="USGS Earthquake data link.">
-                                    USGS GeoJSON Feed
-                                </a>. The map on the link above contains dataset of all earthquakes from the past 7
-                                days.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="card shadow p-2 mb-2">
-                        <img src="https://media.giphy.com/media/PlrHQzUQHn584/giphy.gif" class="rounded h-100 w-100"
-                            alt="animated earthquake at someone's yard">
-                    </div>
+                <div class="card shadow p-2 mb-2">
+                    <img src="https://media.giphy.com/media/PlrHQzUQHn584/giphy.gif" class="rounded h-100 w-100"
+                        alt="animated earthquake at someone's yard">
                 </div>
-            <!-- </div> -->
+            </div>
         </div>
 
         <div id="mapID" class="row sticky-offset">
-            <!-- <div class="row sticky-offset"> -->
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="card shadow p-2 mb-2">
-                        <div id="map"></div>
-                    </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="card shadow p-2 mb-2">
+                    <div id="map"></div>
                 </div>
-            <!-- </div> -->
+            </div>
         </div>
     </content>
 
