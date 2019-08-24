@@ -128,6 +128,6 @@ Bootstrap 4 breakpoints
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
-  .sticky-offset {padding: 7.5rem 0rem 0rem 0rem;}
+  .sticky-offset {padding: 7rem 0rem 0rem 0rem;}
   .text-responsive {font-size: 4vw;}
 }
